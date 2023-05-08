@@ -1,11 +1,5 @@
 import React from 'react';
-import { Grid, Button, Typography} from '@mui/material';
-import { WidthFull } from '@mui/icons-material';
-import { fontGrid } from '@mui/material/styles/cssUtils';
-import { width } from '@mui/system';
-import {Link, Routes, RouterLink, useNavigate, Route, BrowserRouter} from "react-router-dom";
-import Input from './Input';
-import Navbar from './navbar';
+import { Grid, Button} from '@mui/material';
 
 function App() {
   return (
@@ -20,9 +14,9 @@ function App() {
         <br></br>
         <br></br>
         <div>
-        <img src="cup1.png" width={250} height={250} style={{marginLeft:"300px"}}/>
-        <img src="creamery.png" width={250} height={250} style={{marginLeft:"100px"}}/>
-        <img src="cup2.png" width={250} height={250} style={{marginLeft:"100px"}}/>
+        <img src="cup1.png" width={250} height={250} alt="" style={{marginLeft:"300px"}}/>
+        <img src="creamery.png" width={250} height={250} alt="" style={{marginLeft:"100px"}}/>
+        <img src="cup2.png" width={250} height={250} alt="" style={{marginLeft:"100px"}}/>
         </div>
   <br></br>
   <br></br>

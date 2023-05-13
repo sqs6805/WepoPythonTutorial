@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Button} from '@mui/material';
+import { Grid, Button, Typography} from '@mui/material';
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
         </div>
   <br></br>
   <br></br>
+  <Typography align='left'>
 <Grid item xs={3}>
       <Button href="/Input" variant="contained" color="inherit" label="Input/Output" size="large" style={{marginLeft:"650px"}}>
         Lesson 1: Input and Output
@@ -60,6 +61,7 @@ function App() {
         Lesson 6: Debugging and practice!
         </Button>
       </Grid>
+      </Typography>
       <br></br>
       <br></br>
     </div>

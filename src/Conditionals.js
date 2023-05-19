@@ -9,13 +9,13 @@ function Conditionals(){
             <br></br>
             <br></br>
             <br></br>
-            <Typography color="error">
+            <Typography color="Primary">
                 <h1 align="center">Conditionals</h1>
                 </Typography>
             <Grid container spacing={2}>
                 <Grid item sm={4}>
-                    <Card style={{marginLeft:"100px", width:"450px", height:"450px"}}>
-                <Typography color="Primary" variant='h6' align="left" fontFamily={"GoldmanBold"}  gutterBottom>
+                    <Card style={{marginLeft:"100px", width:"450px", height:"450px", backgroundColor:"teal"}}>
+                <Typography color="white" variant='h6' align="left" fontFamily={"GoldmanBold"}  gutterBottom>
                    <CardContent>
                     <b>Why are conditionals used </b>
                    </CardContent>
@@ -30,8 +30,8 @@ function Conditionals(){
                 <br></br>
                 <br></br>
                 <Grid item sm={4}>
-                <Card style={{marginLeft:"75px", width:"450px", height:"450px"}}>
-                <Typography color="deepskyblue" variant='h6' align="left" fontFamily={"GoldmanBold"} gutterBottom>
+                <Card style={{marginLeft:"75px", width:"450px", height:"450px", backgroundColor:"teal"}}>
+                <Typography color="white" variant='h6' align="left" fontFamily={"GoldmanBold"} gutterBottom>
                     <CardContent>
                         <b>Sandbox example of conditionals</b>
                     </CardContent>
@@ -43,12 +43,12 @@ function Conditionals(){
                 </Card>
                 </Grid>
                 <Grid item sm={4} align="center">
-                <Card align="center" width="600px" height="600px" raised="true" style={{backgroundColor: "yellow", width:"400px", height:"400px", marginRight:"60px"}} >
+                <Card align="center" width="600px" height="600px" raised="true" style={{backgroundColor: "teal", width:"400px", height:"400px", marginRight:"60px"}} >
                 <CardContent>
-                    <Typography color="Primary" variant="h4" align="center" fontFamily={"GoldmanBold"} >
+                    <Typography color="white" variant="h4" align="center" fontFamily={"GoldmanBold"} >
                         <CardContent>Try yourself!</CardContent>
                     </Typography>
-                <Typography color="darkred" variant='h6' align="left" fontFamily={"GoldmanBold"} marginRight="30px">
+                <Typography color="white" variant='h6' align="left" fontFamily={"GoldmanBold"} marginRight="30px">
                  Now that you have seen an example, it is time for you to apply this knowledge to our creamery!
                 Print the cost of different types of ice creams according to the ice cream flavor that the user enters.
                 Modify the sandbox on the side with your code and see if you can get the correct output!
@@ -67,6 +67,13 @@ function Conditionals(){
                     <Card style={{marginTop:"75px", width:"300px", height:"300px"}}>
                         <CardContent>
                             Things to remember!
+                        </CardContent>
+                        <CardContent>
+                            1. Identation is important! The lines of code that you want to execute if an if or elif statement is true, 
+                            should be indented under the declaration of an if statement as shown in the example piece of code. 
+                        </CardContent>
+                        <CardContent>
+                            2. Only the lines of code under the statement that evalutates to true will be executed, the rest of the code will be skipped. 
                         </CardContent>
                     </Card>
                 </Grid>

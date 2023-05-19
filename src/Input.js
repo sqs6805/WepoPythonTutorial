@@ -13,19 +13,34 @@ function Input(){
             <iframe align="center" style={{marginLeft:"40px"}} title='Learning about input and output in Python' src="https://trinket.io/embed/python3/860e806044"  width="600" height="400" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"/>
             <br></br>
             <br></br>
-            <Card style={{marginLeft:"100px", width:"400px", height:"400px"}} raised="true">
+            <Card style={{marginLeft:"100px", width:"400px", height:"400px",  backgroundColor:"yellowgreen"}} raised="true">
                 <CardContent>
                     Try yourself!
                 </CardContent>
                 <CardContent>
                     Try creating an input yourself now! Ask the user to enter their favorite ice cream flavor. 
                 </CardContent>
+                <CardContent>
+                    Do this my modifying the sandbox and writing your own code! 
+                </CardContent>
             </Card>
             </Grid>
             <Grid item sm={4}>
-                <Card style={{width: "400px", height:"150px", marginLeft:"120px"}} raised="true">
+                <Card style={{width: "400px", height:"400px", marginLeft:"120px", backgroundColor:"yellowgreen"}} raised="true">
                     <CardContent>
-                        This card explains input and output
+                        <b>Input/Output</b>
+                    </CardContent>
+                    <CardContent>
+                        <b>A way to get an input from the user in Python is to use the input() function.</b> The input function is supposed to 
+                        include a string within the brackets of the function (as shown in the example in the sandbox). This string will be 
+                        displayed to the user when the code is run and tells the user what input the computer is looking for. 
+                    </CardContent>
+                    <CardContent>
+                        As you can see in the example, we assign the input function to a variable 
+                    </CardContent>
+                    <CardContent>
+                        <b>The way to get an output from the code is using print statements. </b> The print function takes in a variable that 
+                        is supposed to be printed and shown to the user, which in other words means giving an output. 
                     </CardContent>
                 </Card>
             </Grid>
@@ -65,6 +80,9 @@ function Input(){
                     </CardContent>
                     <CardContent>
                         This is a way to write a desciption of your code that won't affect the execution of the program. 
+                    </CardContent>
+                    <CardContent>
+                        A line is considered as a comment in Python if it starts with a '#' symbol. 
                     </CardContent>
                     </Typography>
                 </Card>

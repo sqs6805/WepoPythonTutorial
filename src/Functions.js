@@ -1,4 +1,5 @@
 import React from 'react'
+import { Typography, Grid, CardContent} from '@mui/material'
 
 function Functions(){
     return(

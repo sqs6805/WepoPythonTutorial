@@ -6,7 +6,7 @@ function Lists(){
     return(
         <div>
             <Typography color="success">
-                <h1 align="center" color='success'>Lists</h1>
+                <h1 align="center" color='success'>Lesson 3: Lets learn about Lists</h1>
              </Typography>
             <Grid container spacing={2}>
                 <Grid item sm ={4}>
@@ -18,7 +18,7 @@ function Lists(){
                 </CardContent>
                     <Typography>
                         <CardContent>
-                            A list is a mutable (can be changed) data structure in Python. A list consists of an ordered sequence of elements, each of these elements inside the list is called an item. All python lists are framed by an outerset of square brackets [ ]. 
+                            A list is a mutable (can be changed) data structure in Python. A list consists of an ordered sequence of elements, each of these elements inside the list is called an item. All python lists are framed by an outerset of square brackets [ ]. Any datasets can be added to a single list.
                         </CardContent>
                         <CardContent>
                             Lists can become useful when working with related values and data sets. Lists are an easy way to keep data organized and perform the same operations on multiple values at once. These operations can be performed using different list functions. Examples of these functions are given on the next card.  

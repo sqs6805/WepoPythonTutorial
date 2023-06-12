@@ -1,11 +1,11 @@
 import React from 'react'
-import { Typography, Grid, CardContent} from '@mui/material'
+import { Typography} from '@mui/material'
 
 function Functions(){
     return(
         <div>
             <Typography color="success">
-                <h1 align="center" color='success'>Lesson 5: Let's learn about Functions!</h1>
+                <h1 align="center" color='success'>Functions, Arguments vs. Parameters, Return vs. Print</h1>
              </Typography>
         </div>
 )

@@ -5,7 +5,6 @@ import { Card } from '@mui/material'
 function Loops(){
     return(
         <div>
-            Lesson 4: Let's learn about Loops! 
             <Typography color="success">
                 <h1 align="center" color='success'>Lesson 4: Let's learn about Loops!</h1>
              </Typography>

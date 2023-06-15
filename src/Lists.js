@@ -6,7 +6,6 @@ function Lists(){
     return(
         <div>
             <Typography color="success">
-                <h1 align="center" color='success'>Lesson 3: Lets learn about Lists</h1>
                 <h1 align="center" color='success'>Lesson 3: Let's learn about Lists!</h1>
              </Typography>
             <Grid container spacing={2}>

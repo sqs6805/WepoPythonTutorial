@@ -19,7 +19,7 @@ function Lists(){
                 </CardContent>
                     <Typography>
                         <CardContent>
-                            A list is a mutable (can be changed) data structure in Python. A list consists of an ordered sequence of elements, each of these elements inside the list is called an item. All python lists are framed by an outerset of square brackets [ ]. Any data types can be added to a single list.
+                        A list is a mutable (can be changed) data structure in Python. A list consists of an ordered sequence of elements, each of these elements inside the list is called an item. All python lists are framed by an outerset of square brackets [ ]. Any data types can be added to a single list.
                         </CardContent>
                         <CardContent>
                             Lists can become useful when working with related values and data sets. Lists are an easy way to keep data organized and perform the same operations on multiple values at once. These operations can be performed using different list functions. Examples of these functions are given on the next card.  

@@ -52,8 +52,11 @@ function Debugging(){
                     </Card>
                 </Grid>
                 <Grid item xs ={3}>
-                <Button href="/Debugging" variant="contained" color="inherit" label="Debugging" size="large" style={{marginLeft:"200px"}}>
+                <Button href="/Practice" variant="contained" color="inherit" label="Debugging" size="large" style={{marginLeft:"300px"}}>
                     Practice Problems!
+                </Button>
+                <Button href="/App" variant="contained" color="inherit" label="Debugging" size="large" style={{marginRight:"800px"}}>
+                    Back
                 </Button>
             </Grid>
         </div>

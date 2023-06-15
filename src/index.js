@@ -9,6 +9,11 @@ import Lists from './Lists';
 import Loops from './Loops';
 import Functions from './Functions';
 import Debugging from './Debugging';
+import Practice from './Practice';
+import Problem3 from './Problem3';
+import Problem5 from './Problem5';
+import Problem7 from './Problem7';
+import Problem9 from './Problem9';
 
 
 const router = createBrowserRouter([
@@ -40,6 +45,30 @@ const router = createBrowserRouter([
     path: "Debugging",
     element: <Debugging/>
   },
+  {
+    path: "Practice",
+    element: <Practice/>
+  },
+  {
+    path: "Problem3",
+    element: <Problem3/>
+  },
+  {
+    path: "Problem5",
+    element: <Problem5/>
+  },
+  {
+    path: "Problem7",
+    element: <Problem7/>
+  },
+  {
+    path: "Problem9",
+    element: <Problem9/>
+  },
+  {
+    path: "App",
+    element: <App/>
+  }
 ]);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -10,7 +10,7 @@ function Loops(){
              </Typography>
             <Grid container spacing={2}>
                 <Grid item sm ={4}>
-                <Card style={{marginLeft:"100px", width:"700px", height:"350px"}} raised="true">
+                <Card style={{marginLeft:"100px", width:"700px", height:"300px"}} raised="true">
                 <CardContent>
                     <Typography>
                         <b>What are Loops and why are they used?</b>
@@ -29,13 +29,13 @@ function Loops(){
             <br></br>
             <br></br>
 
-            <iframe align="center" style={{marginLeft:"100px"}} title='Learning about Lists in Python' src= "https://trinket.io/library/trinkets/create?lang=python3"  width="700" height="450" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"/>
+            <iframe align="center" style={{marginLeft:"100px"}} title='Learning about Loops in Python' src= "https://trinket.io/library/trinkets/15078468c5"  width="700" height="450" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"/>
 
             </Grid>
             <Grid item sm={4}>
             </Grid>
             <Grid item sm={4}>
-                <Card style={{backgroundColor:"yellowgreen", width:"500px", height:"675px", marginRight:"100px"}} raised="true">
+                <Card style={{backgroundColor:"yellowgreen", width:"400px", height:"600px", marginRight:"50px"}} raised="true">
                     <CardContent>
                         <Typography>
                             <b>Different Types of Loops</b>
@@ -52,23 +52,20 @@ function Loops(){
                             <b>How do I know which to use? </b> - For loops are used when we know the number of iterations we want the loop to complete. While Loops are used when we want the loop to continue executing until a specific condition is proved wrong.
                         </CardContent>
                         <CardContent>
-                            <b>Common Loop Iterating Techniques</b> - 
-                        </CardContent>
-                        <CardContent>
-                             Run the code in the sandbox and try adding different icecream flavors to the shopping cart. Then type "q" to calculate the total cost. 
+                             Run the code in the sandbox to see how a while loop can be used to print icecream flavors in a list. 
                         </CardContent>
                     </Typography>
                 </Card>
                 <br></br>
                 <br></br>
                 <br></br>
-                <Card style={{backgroundColor:"yellowgreen", width:"500px", height:"150px", marginRight:"100px"}} raised="true">
+                <Card style={{backgroundColor:"yellowgreen", width:"400px", height:"125px", marginRight:"100px"}} raised="true">
                     <Typography style={{color:"black"}}>
                     <CardContent>
                         <b>Your turn to modify the sandbox!</b>
                     </CardContent>
                     <CardContent>
-                        Print out all the ice cream flavors in the list (using both While Loops and For Loops)
+                        Print out all the ice cream flavors in the list using a for loop. The While loop was already done for you above.
                     </CardContent>
                     </Typography>
                 </Card>

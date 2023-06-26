@@ -35,7 +35,7 @@ function Lists(){
             <Grid item sm={4}>
             </Grid>
             <Grid item sm={4}>
-                <Card style={{backgroundColor:"yellowgreen", width:"500px", height:"675px", marginRight:"100px"}} raised="true">
+                <Card style={{backgroundColor:"yellowgreen", width:"400px", height:"700px", marginRight:"100px"}} raised="true">
                     <CardContent>
                         <Typography>
                             <b>Important Python List Functions</b>
@@ -71,7 +71,7 @@ function Lists(){
                 <br></br>
                 <br></br>
                 <br></br>
-                <Card style={{backgroundColor:"yellowgreen", width:"500px", height:"150px", marginRight:"100px"}} raised="true">
+                <Card style={{backgroundColor:"yellowgreen", width:"400px", height:"125px", marginRight:"100px"}} raised="true">
                     <Typography style={{color:"black"}}>
                     <CardContent>
                         <b>Try it Yourself!</b>

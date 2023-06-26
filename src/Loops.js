@@ -65,7 +65,7 @@ function Loops(){
                         <b>Your turn to modify the sandbox!</b>
                     </CardContent>
                     <CardContent>
-                        Print out all the ice cream flavors in the list using a for loop. The While loop was already done for you above.
+                        Print out all the ice cream flavors in the list using a for loop. The While loop was already done for you.
                     </CardContent>
                     </Typography>
                 </Card>

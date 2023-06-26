@@ -29,7 +29,7 @@ function Lists(){
             <br></br>
             <br></br>
 
-            <iframe align="center" style={{marginLeft:"100px"}} title='Learning about Lists in Python' src= "https://trinket.io/library/trinkets/5e353c102a"  width="700" height="450" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"/>
+            <iframe align="center" style={{marginLeft:"100px"}} title='Learning about Lists in Python' src= "https://trinket.io/library/trinkets/b6cfff3ab5"  width="700" height="450" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"/>
 
             </Grid>
             <Grid item sm={4}>
@@ -64,7 +64,7 @@ function Lists(){
                             <b>7. sort()</b> - Sort a List in ascending, descending, or user-defined order.
                         </CardContent>
                         <CardContent>
-                             Run the code in the sandbox and try adding different icecream flavors to the shopping cart. Then type "q" to calculate the total cost. 
+                             Run the code in the sandbox and to see how ice cream flavors can be added to a list that acts as the shopping cart. 
                         </CardContent>
                     </Typography>
                 </Card>
@@ -74,10 +74,10 @@ function Lists(){
                 <Card style={{backgroundColor:"yellowgreen", width:"400px", height:"125px", marginRight:"100px"}} raised="true">
                     <Typography style={{color:"black"}}>
                     <CardContent>
-                        <b>Try it Yourself!</b>
+                        <b>Your turn to modify the Sandbox!</b>
                     </CardContent>
                     <CardContent>
-                        Now try creating your own list!  
+                        Now try using the costs list to add up the total cost of the shopping cart.  
                     </CardContent>
                     </Typography>
                 </Card>

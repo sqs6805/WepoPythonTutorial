@@ -55,10 +55,12 @@ function Debugging(){
                 <Button href="/Practice" variant="contained" color="inherit" label="Debugging" size="large" style={{marginLeft:"300px"}}>
                     Practice Problems!
                 </Button>
+                </Grid>
+                <Grid item xs = {3}>
                 <Button href="/App" variant="contained" color="inherit" label="Debugging" size="large" style={{marginRight:"800px"}}>
                     Back
                 </Button>
-            </Grid>
+                </Grid>
         </div>
 
 )

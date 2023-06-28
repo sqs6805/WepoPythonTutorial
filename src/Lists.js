@@ -10,7 +10,7 @@ function Lists(){
              </Typography>
             <Grid container spacing={2}>
                 <Grid item sm ={4}>
-                <Card style={{marginLeft:"100px", width:"700px", height:"350px"}} raised="true">
+                <Card style={{marginLeft:"100px", width:"700px", height:"325px"}} raised="true">
                 <CardContent>
                     <Typography>
                         <b>What are Lists and why are they used?</b>
@@ -18,10 +18,10 @@ function Lists(){
                 </CardContent>
                     <Typography>
                         <CardContent>
-                        A list is a mutable (can be changed) data structure in Python. A list consists of an ordered sequence of elements, each of these elements inside the list is called an item. All python lists are framed by an outerset of square brackets [ ]. Any data types can be added to a single list.
+                        A list is a <b>mutable</b> (can be changed) data structure in Python. A list consists of an ordered <b>sequence of elements</b>, each of these elements inside the list is called an <b>item</b>. All python lists are framed by an outerset of <b>square brackets [ ]</b>. Any data types can be added to a single list.
                         </CardContent>
                         <CardContent>
-                            Lists can become useful when working with related values and data sets. Lists are an easy way to keep data organized and perform the same operations on multiple values at once. These operations can be performed using different list functions. Examples of these functions are given on the next card.  
+                            Lists can become useful when working with <b>related values and data sets</b>. Lists are an easy way to keep data organized and perform the same operations on multiple values at once. These operations can be performed using different <b>list functions</b>. Examples of these functions are given on the next card.  
                         </CardContent>
                     </Typography>
             </Card>
@@ -29,7 +29,7 @@ function Lists(){
             <br></br>
             <br></br>
 
-            <iframe align="center" style={{marginLeft:"100px"}} title='Learning about Lists in Python' src= "https://trinket.io/library/trinkets/b6cfff3ab5"  width="700" height="450" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"/>
+            <iframe align="center" style={{marginLeft:"100px"}} title='Learning about Lists in Python' src= "https://trinket.io/embed/python/b6cfff3ab5?toggleCode=true"  width="700" height="525" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"/>
 
             </Grid>
             <Grid item sm={4}>
@@ -71,13 +71,10 @@ function Lists(){
                 <br></br>
                 <br></br>
                 <br></br>
-                <Card style={{backgroundColor:"yellowgreen", width:"400px", height:"125px", marginRight:"100px"}} raised="true">
+                <Card style={{backgroundColor:"yellowgreen", width:"400px", height:"100px", marginRight:"100px"}} raised="true">
                     <Typography style={{color:"black"}}>
                     <CardContent>
-                        <b>Your turn to modify the Sandbox!</b>
-                    </CardContent>
-                    <CardContent>
-                        Now try using the costs list to add up the total cost of the shopping cart.  
+                        <b>Your turn to modify the sandbox!</b> - Now try using the <b>costs list</b> to add up the total cost of the shopping cart.
                     </CardContent>
                     </Typography>
                 </Card>

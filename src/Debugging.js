@@ -10,7 +10,7 @@ function Debugging(){
              </Typography>
             <Grid container spacing={2}>
             <Grid item sm={4}>
-                    <Card style={{width: "800px", height:"200px", marginLeft:"35px", backgroundColor:"teal"}} raised="true">
+                    <Card style={{width: "800px", height:"200px", marginLeft:"350px", backgroundColor:"teal"}} raised="true">
                     <Typography color="white" variant='h6' align="left" fontFamily={"GoldmanBold"}  gutterBottom>
                         <CardContent>
                             <b>What is debugging?</b><b></b>
@@ -25,12 +25,12 @@ function Debugging(){
                     </Card>
                     </Grid>
                     <Grid item sm = {2}>
-                        <Button href="/Practice" variant="contained" color="inherit" label="Debugging" size="extralarge" style={{marginLeft:"500px"}}>
+                        <Button align = "center" href="/Practice" variant="contained" color="inherit" label="Debugging" size="extralarge" style={{marginLeft:"750px"}}>
                             Practice Problems!
                             </Button>
-                        <br></br>
-                        <br></br>
-                        <Button href="/App" variant="contained" color="inherit" label="Debugging" size="extralarge" style={{marginLeft:"500px"}}>
+                    </Grid>
+                    <Grid item sm = {2}>
+                        <Button  align = "center" href="/App" variant="contained" color="inherit" label="Debugging" size="extralarge" style={{marginLeft:"-650px"}}>
                             Homepage
                             </Button>
                     </Grid>
@@ -38,7 +38,7 @@ function Debugging(){
                     <br></br>
                     <br></br>
                 <Grid item sm = {4}>
-                    <Card style={{marginLeft:"35px", width:"800px", height:"575px", backgroundColor:"teal"}} raised = "true">
+                    <Card style={{marginLeft:"350px", width:"800px", height:"575px", backgroundColor:"teal"}} raised = "true">
                     <Typography color="white" variant='h6' align="left" fontFamily={"GoldmanBold"}  gutterBottom>
                     <CardContent>
                             <b>What are the steps to debugging?</b><b></b>

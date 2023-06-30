@@ -10,7 +10,7 @@ function Functions(){
              </Typography>
             <Grid container spacing={2}>
                 <Grid item sm={4}>
-                    <Card style={{marginLeft:"200px", width:"500px", height:"500px", backgroundColor:"yellowgreen"}}>
+                    <Card style={{marginLeft:"100px", width:"600px", height:"500px", backgroundColor:"yellowgreen"}}>
                     <CardContent>
                    <b>What are Functions?</b><b></b>
                    </CardContent>
@@ -35,7 +35,7 @@ function Functions(){
                 <br></br>
                 <br></br>
                 <Grid item sm={4}>
-                <Card style={{marginLeft:"300px", width:"550px", height:"500px", backgroundColor:"yellowgreen"}}>
+                <Card style={{marginLeft:"290px", width:"590px", height:"500px", backgroundColor:"yellowgreen"}}>
                 <CardContent>
                     <b>Defining vs Calling Function</b>
                     </CardContent>
@@ -70,12 +70,12 @@ function Functions(){
                     <Grid item sm={7} align="center">
                         <br></br>
                         <br></br>
-                <iframe align="center" style={{marginLeft:"130px"}} title='Learning about functions in' src="https://trinket.io/embed/python3/2f76acfe3d"  width="700" height="400" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"/>
+                <iframe style={{marginRight:"80px"}} title='Learning about functions in' src="https://trinket.io/embed/python3/2f76acfe3d"  width="610" height="400" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"/>
                 <br></br>
                 <br></br>
                 </Grid>
                 <Grid item sm={5}>
-                    <Card style={{marginTop:"75px", width:"300px", height:"300px"}}>
+                    <Card style={{marginTop:"100px", width:"300px", height:"300px"}}>
                 <CardContent>
                 <b>Your turn to try and modify the sandbox!</b> Try and alter the different variables and function and see the variety of different outputs!
                 </CardContent>

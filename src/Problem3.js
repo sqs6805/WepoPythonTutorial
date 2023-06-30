@@ -9,15 +9,15 @@ function Problem3(){
                 <h1 align="center" color='success'>Edit the Sandbox to Correct the Error!</h1>
              </Typography>
              <Grid item sm = {2}>
-                <Button href="/App" variant="contained" color="inherit" label="Debugging" size="large" style={{marginLeft:"100px"}}>
-                    Homepage
-                    </Button>
-                <Button href="/Practice" variant="contained" color="inherit" label="Debugging" size="large" style={{marginLeft:"450px"}}>
+             <Button href="/Practice" variant="contained" color="inherit" label="Debugging" size="large" style={{marginLeft:"100px"}}>
                     Back
                     </Button>
                 <Button href="/Problem5" variant="contained" color="inherit" label="Debugging" size="large" style={{marginLeft:"450px"}}>
                     Continue
                 </Button>
+                <Button href="/App" variant="contained" color="inherit" label="Debugging" size="large" style={{marginLeft:"450px"}}>
+                    Homepage
+                    </Button>
                 </Grid>
              <Grid container spacing={2}>
                     <Grid item sm={7} align="center">

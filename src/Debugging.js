@@ -8,10 +8,10 @@ function Debugging(){
             <Typography color="success">
                 <h1 align="center" color='success'>Lesson 6: Debugging and Practice Questions!</h1>
              </Typography>
-             <Grid container spacing={2}>
-                <Grid item sm ={4}>
+            <Grid container spacing={2}>
             <Grid item sm={4}>
-                    <Card style={{width: "500px", height:"200px", marginLeft:"35px", backgroundColor:"mistyrose"}} raised="true">
+                    <Card style={{width: "800px", height:"200px", marginLeft:"35px", backgroundColor:"teal"}} raised="true">
+                    <Typography color="white" variant='h6' align="left" fontFamily={"GoldmanBold"}  gutterBottom>
                         <CardContent>
                             <b>What is debugging?</b><b></b>
                         </CardContent>
@@ -21,12 +21,25 @@ function Debugging(){
                         <CardContent>
                             <b>Click on the Practice Problems button to practice this!</b>
                         </CardContent>
+                        </Typography>
                     </Card>
                     </Grid>
+                    <Grid item sm = {2}>
+                        <Button href="/Practice" variant="contained" color="inherit" label="Debugging" size="extralarge" style={{marginLeft:"500px"}}>
+                            Practice Problems!
+                            </Button>
+                        <br></br>
+                        <br></br>
+                        <Button href="/App" variant="contained" color="inherit" label="Debugging" size="extralarge" style={{marginLeft:"500px"}}>
+                            Homepage
+                            </Button>
+                    </Grid>
                     </Grid>
                     <br></br>
                     <br></br>
-                    <Card style={{marginLeft:"200px", width:"610px", height:"525px", backgroundColor:"mistyrose"}} raised = "true">
+                <Grid item sm = {4}>
+                    <Card style={{marginLeft:"35px", width:"800px", height:"575px", backgroundColor:"teal"}} raised = "true">
+                    <Typography color="white" variant='h6' align="left" fontFamily={"GoldmanBold"}  gutterBottom>
                     <CardContent>
                             <b>What are the steps to debugging?</b><b></b>
                         </CardContent>
@@ -49,18 +62,11 @@ function Debugging(){
                         <CardContent>
                             Step 6: Check to see if the code runs properly.
                         </CardContent>
+                        </Typography>
                     </Card>
                 </Grid>
-                <Grid item xs ={3}>
-                <Button href="/Practice" variant="contained" color="inherit" label="Debugging" size="large" style={{marginLeft:"300px"}}>
-                    Practice Problems!
-                </Button>
-                </Grid>
-                <Grid item xs = {3}>
-                <Button href="/App" variant="contained" color="inherit" label="Debugging" size="large" style={{marginRight:"800px"}}>
-                    Back
-                </Button>
-                </Grid>
+                <br></br>
+                <br></br>
         </div>
 
 )

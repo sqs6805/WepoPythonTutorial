@@ -10,7 +10,7 @@ function Lists(){
              </Typography>
             <Grid container spacing={2}>
                 <Grid item sm ={4}>
-                <Card style={{marginLeft:"100px", width:"700px", height:"325px"}} raised="true">
+                <Card style={{marginLeft:"100px", width:"700px", height:"325px", backgroundColor:"yellowgreen"}} raised="true">
                 <CardContent>
                     <Typography>
                         <b>What are Lists and why are they used?</b>

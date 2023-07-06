@@ -70,12 +70,12 @@ function Functions(){
                     <Grid item sm={7} align="center">
                         <br></br>
                         <br></br>
-                <iframe style={{marginRight:"80px"}} title='Learning about functions in' src="https://trinket.io/embed/python3/2f76acfe3d"  width="610" height="400" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"/>
+                <iframe style={{marginRight:"80px"}} title='Learning about functions in' src="https://trinket.io/embed/python3/2f76acfe3d"  width="750" height="400" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"/>
                 <br></br>
                 <br></br>
                 </Grid>
                 <Grid item sm={5}>
-                    <Card style={{marginTop:"100px", width:"300px", height:"300px"}}>
+                    <Card style={{marginTop:"100px", width:"400px", height:"300px", backgroundColor:"yellowgreen"}}>
                 <CardContent>
                 <b>Your turn to try and modify the sandbox!</b> Try and alter the different variables and function and see the variety of different outputs!
                 </CardContent>

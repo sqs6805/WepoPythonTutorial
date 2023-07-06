@@ -14,7 +14,7 @@ function Conditionals(){
                 </Typography>
             <Grid container spacing={2}>
                 <Grid item sm={4}>
-                    <Card style={{marginLeft:"100px", width:"450px", height:"600px"}}>
+                    <Card style={{marginLeft:"100px", width:"450px", height:"600px", backgroundColor:"yellowgreen"}}>
                 <Typography align="left" gutterBottom>
                    <CardContent>
                     <b>Why are conditionals used </b>
@@ -44,7 +44,7 @@ function Conditionals(){
                 <br></br>
                 <br></br>
                 <Grid item sm={4}>
-                <Card style={{marginLeft:"75px", width:"450px", height:"600px"}}>
+                <Card style={{marginLeft:"75px", width:"450px", height:"600px", backgroundColor:"yellowgreen"}}>
                 <Typography align="left" gutterBottom>
                     <CardContent>
                         <b>Sandbox example of conditionals</b>
@@ -70,7 +70,7 @@ function Conditionals(){
                 </Typography>
                 </Card>
                 </Grid>
-                <Card style={{marginTop:"16px", width:"450px", height:"600px", marginLeft:"60px"}}>
+                <Card style={{marginTop:"16px", width:"450px", height:"600px", marginLeft:"60px", backgroundColor:"yellowgreen"}}>
                         <CardContent>
                             <b>Formatting/Syntax for Conditionals</b>
                         </CardContent>
@@ -104,7 +104,7 @@ function Conditionals(){
                 <iframe style={{marginLeft:"150px", marginBottom:"50px"}}  align="center" title='Learning about input and output in Python' src="https://trinket.io/embed/python/cbfde46f46"  width="800" height="500" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"/>
                 </Grid>
                 <Grid item sm={5}>
-                <Card width="600px" height="600px" raised="true" style={{ width:"400px", height:"400px", marginRight:"50px", marginTop:"100px", marginLeft:"100px"}} >
+                <Card width="600px" height="600px" raised="true" style={{ width:"400px", height:"400px", marginRight:"50px", marginTop:"100px", marginLeft:"100px", backgroundColor:"yellowgreen"}} >
                 <CardContent><b>Try yourself!</b></CardContent>
                 <CardContent>
                  Now that you have seen an example, it is time for you to apply this knowledge to our creamery!

@@ -70,7 +70,7 @@ function Conditionals(){
                 </Typography>
                 </Card>
                 </Grid>
-                <Card style={{marginTop:"16px", width:"450px", height:"600px", marginLeft:"60px", backgroundColor:"yellowgreen"}}>
+                <Card style={{marginTop:"16px", width:"450px", height:"610px", marginLeft:"60px", backgroundColor:"yellowgreen"}}>
                         <CardContent>
                             <b>Formatting/Syntax for Conditionals</b>
                         </CardContent>
@@ -82,17 +82,17 @@ function Conditionals(){
                             2. Only the lines of code under the statement that evalutates to true will be executed, the rest of the code will be skipped. 
                         </CardContent>
                         <CardContent>
-                            <b>Logical Operators</b>
+                            <b>Logical Operators: These are the operators that return either false or true as an output. </b>
                         </CardContent>
                         <CardContent>
                             1. <b>==</b>  : This is an operator to check whether two data points are equal to eachother or not. "print(9==5)" will give us an output of false since 9 and 5 are not equal. However, a "print(5==5)" will give a true result. 
                         </CardContent>
                         <CardContent>
                             2. <b>And</b> : This is an operator which returns true if both the conditions are true. Similar to what AND actually means! For example, in the sandox example, the code within each else if or if statement will only be 
-                            executed if the "and" operators. 
+                            executed if the "and" operators return true. 
                         </CardContent>
                         <CardContent>
-                            3. <b>Or</b> : This is an operator which returns true 
+                            3. <b>Or</b> : Similar to the word "or" this returns true if either of the conditions are true. 
                         </CardContent>
                     </Card>
 

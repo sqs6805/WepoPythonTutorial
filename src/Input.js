@@ -16,7 +16,7 @@ function Input(){
                 <b>Variables</b>
             </CardContent>
             <CardContent>
-                Variables is a way to store data. You can assign something to a variable when you want to use it in your code somewhere. 
+                Variables are a way to store data. You can assign something to a variable when you want to use it in your code somewhere. 
             </CardContent>
             <CardContent>
                 For example, if you see the example given below in the sandbox, "favorite_car_brand" is actually a variable which is storing the data point that the user is entering.

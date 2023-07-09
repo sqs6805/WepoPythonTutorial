@@ -10,11 +10,11 @@ function Conditionals(){
             <br></br>
             <br></br>
             <Typography color="Primary">
-                <h1 align="center">Conditionals</h1>
+                <h1 align="center">Conditionals - Update</h1>
                 </Typography>
             <Grid container spacing={2}>
                 <Grid item sm={4}>
-                    <Card style={{marginLeft:"100px", width:"450px", height:"600px", backgroundColor:"yellowgreen"}}>
+                    <Card style={{marginLeft:"30px", width:"450px", height:"600px", backgroundColor:"yellowgreen"}}>
                 <Typography align="left" gutterBottom>
                    <CardContent>
                     <b>Why are conditionals used </b>
@@ -44,7 +44,7 @@ function Conditionals(){
                 <br></br>
                 <br></br>
                 <Grid item sm={4}>
-                <Card style={{marginLeft:"75px", width:"450px", height:"600px", backgroundColor:"yellowgreen"}}>
+                <Card style={{marginLeft:"20px", width:"450px", height:"600px", backgroundColor:"yellowgreen"}}>
                 <Typography align="left" gutterBottom>
                     <CardContent>
                         <b>Sandbox example of conditionals</b>
@@ -70,7 +70,7 @@ function Conditionals(){
                 </Typography>
                 </Card>
                 </Grid>
-                <Card style={{marginTop:"16px", width:"450px", height:"610px", marginLeft:"60px", backgroundColor:"yellowgreen"}}>
+                <Card style={{marginTop:"16px", width:"450px", height:"610px", marginLeft:"20px", backgroundColor:"yellowgreen"}}>
                         <CardContent>
                             <b>Formatting/Syntax for Conditionals</b>
                         </CardContent>

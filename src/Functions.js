@@ -10,7 +10,7 @@ function Functions(){
              </Typography>
             <Grid container spacing={2}>
                 <Grid item sm={4}>
-                    <Card style={{marginLeft:"100px", width:"600px", height:"500px", backgroundColor:"yellowgreen"}}>
+                    <Card style={{marginLeft:"100px", width:"600px", height:"560px", backgroundColor:"yellowgreen"}}>
                     <CardContent>
                    <b>What are Functions?</b><b></b>
                    </CardContent>
@@ -35,14 +35,14 @@ function Functions(){
                 <br></br>
                 <br></br>
                 <Grid item sm={4}>
-                <Card style={{marginLeft:"290px", width:"590px", height:"500px", backgroundColor:"yellowgreen"}}>
+                <Card style={{marginLeft:"290px", width:"590px", height:"560px", backgroundColor:"yellowgreen"}}>
                 <CardContent>
                     <b>Defining vs Calling Function</b>
                     </CardContent>
                     <CardContent>
-                        - Defining a function is done by using the keyword, def following by the function name with the inputs in parenthesis inside.
-                    </CardContent>
-                    <CardContent>
+                        - Defining a function is done by using the keyword, def following by the function name with the inputs in parenthesis inside.              
+                        <br></br>  
+                        <br></br>                  
                         - Calling a function is done from a separate function and it involves using the function name with the inputs in parenthesis inside. 
                     </CardContent>
                     <CardContent>
@@ -50,18 +50,20 @@ function Functions(){
                     </CardContent>
                     <CardContent>
                         - An argument is the term for a value that is passed into a function via a function invocation. 
-                    </CardContent>
-                    <CardContent>
+                        <br></br>
+                        <br></br>
                         - A parameter is one of the variables in the actual function definition.
                     </CardContent>
                     <CardContent>
                         <b>Return vs Print</b>
                     </CardContent>
                     <CardContent>
-                        - Return is a keyword that stops the function from continuing and then “returns” the value back to where it was called from. 
+                        - Return is a keyword that stops the function from continuing and then “returns” the value back to where it was called from. Return is used when the value does not need to be immediately printed out, and instead, saved to a variable to be used.
+                        <br></br>
+                        <br></br>
+                        - Print is a function the prints out the value for humans to see. It will now not have to be printed within the function it was called from. 
                     </CardContent>
                     <CardContent>
-                        - Print is a function the prints out the value for humans to see. It will not have to be printed within the function it was called from. 
                     </CardContent>
                 </Card>
                 </Grid>

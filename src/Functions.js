@@ -72,7 +72,7 @@ function Functions(){
                     <Grid item sm={7} align="center">
                         <br></br>
                         <br></br>
-                <iframe style={{marginRight:"80px"}} title='Learning about functions in' src="https://trinket.io/embed/python3/2f76acfe3d"  width="750" height="400" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"/>
+                <iframe style={{marginRight:"80px"}} title='Learning about functions in' src="https://trinket.io/embed/python3/23b4bcfc78"  width="750" height="400" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"/>
                 <br></br>
                 <br></br>
                 </Grid>

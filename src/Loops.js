@@ -1,5 +1,5 @@
 import React from 'react'
-import { Typography, Grid, CardContent} from '@mui/material'
+import { Typography, Grid, Button, CardContent} from '@mui/material'
 import { Card } from '@mui/material'
 
 function Loops(){
@@ -10,7 +10,7 @@ function Loops(){
              </Typography>
             <Grid container spacing={2}>
                 <Grid item sm ={4}>
-                <Card style={{marginLeft:"100px", width:"700px", height:"275px", backgroundColor:"yellowgreen"}} raised="true">
+                <Card style={{marginLeft:"100px", width:"700px", height:"350px", backgroundColor:"white"}} raised="true">
                 <CardContent>
                     <Typography>
                         <b>What are Loops and why are they used?</b>
@@ -23,6 +23,9 @@ function Loops(){
                         <CardContent>
                             Loops are important because they allow a programmer to execute blocks of code repeatedly without having to write out the same line of code multiple times. An advantage of using loops is that it <b>increases efficiency</b> and allows code to become <b>more simplified</b>.
                         </CardContent>
+                        <CardContent>
+                            A <b>":"</b> must be placed after the first line of each loop. This indicates the sart of an indented block of code.
+                        </CardContent>
                     </Typography>
             </Card>
 
@@ -31,11 +34,12 @@ function Loops(){
 
             <iframe align="center" style={{marginLeft:"100px"}} title='Learning about Loops in Python' src= "https://trinket.io/embed/python/15078468c5?toggleCode=true"  width="700" height="500" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"/>
 
+
             </Grid>
             <Grid item sm={4}>
             </Grid>
             <Grid item sm={4}>
-                <Card style={{backgroundColor:"yellowgreen", width:"400px", height:"600px", marginRight:"50px"}} raised="true">
+                <Card style={{backgroundColor:"white", width:"400px", height:"585px", marginRight:"50px"}} raised="true">
                     <CardContent>
                         <Typography>
                             <b>Different Types of Loops</b>
@@ -59,10 +63,13 @@ function Loops(){
                 <br></br>
                 <br></br>
                 <br></br>
-                <Card style={{backgroundColor:"yellowgreen", width:"400px", height:"110px", marginRight:"100px"}} raised="true">
+                <Card style={{backgroundColor:"white", width:"400px", height:"225px", marginRight:"100px"}} raised="true">
                     <Typography style={{color:"black"}}>
                     <CardContent>
                         <b>Your turn to modify the sandbox!</b> - Print out all the ice cream flavors in the list using a <b>for loop</b>. The while loop was already done for you.
+                    </CardContent>
+                    <CardContent>
+                        <b>Notes: len()</b> is a list function we saw in the last lesson, feel free to go back and review it if you are confused! <b>"i"</b> is a variable place holder used to track the amount of times the loop is traversed.
                     </CardContent>
                     </Typography>
                 </Card>

@@ -39,7 +39,7 @@ function Loops(){
             <Grid item sm={4}>
             </Grid>
             <Grid item sm={4}>
-                <Card style={{backgroundColor:"white", width:"400px", height:"585px", marginRight:"50px"}} raised="true">
+                <Card style={{backgroundColor:"white", width:"400px", height:"580px", marginRight:"50px"}} raised="true">
                     <CardContent>
                         <Typography>
                             <b>Different Types of Loops</b>
@@ -73,7 +73,16 @@ function Loops(){
                     </CardContent>
                     </Typography>
                 </Card>
+                <br></br>
+                <br></br>
+                <Grid item sm = {4}>
+                    <Button  align = "center" href="/App" variant="contained" color="inherit" label="Debugging" size="extralarge" style={{marginLeft:"150px"}}>
+                        Homepage
+                        </Button>
+                    </Grid>
                 </Grid>
+                <br></br>
+                <br></br>
             </Grid>
         </div>
 )

@@ -78,6 +78,15 @@ function Lists(){
                     </CardContent>
                     </Typography>
                 </Card>
+                <br></br>
+                <br></br>
+                <Grid item sm = {4}>
+                    <Button  align = "center" href="/App" variant="contained" color="inherit" label="Debugging" size="extralarge" style={{marginLeft:"150px"}}>
+                        Homepage
+                        </Button>
+                    </Grid>
+                    <br></br>
+                    <br></br>
                 </Grid>
             </Grid>
         </div>

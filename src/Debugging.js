@@ -10,7 +10,7 @@ function Debugging(){
              </Typography>
             <Grid container spacing={2}>
             <Grid item sm={4}>
-                    <Card style={{width: "800px", height:"200px", marginLeft:"350px", backgroundColor:"yellowgreen"}} raised="true">
+                    <Card style={{width: "800px", height:"200px", marginLeft:"350px", backgroundColor:"white"}} raised="true">
                     <Typography align="left"  gutterBottom>
                         <CardContent>
                             <b>What is debugging?</b><b></b>
@@ -38,7 +38,7 @@ function Debugging(){
                     <br></br>
                     <br></br>
                 <Grid item sm = {4}>
-                    <Card style={{marginLeft:"350px", width:"800px", height:"510px", backgroundColor:"yellowgreen"}} raised = "true">
+                    <Card style={{marginLeft:"350px", width:"800px", height:"510px", backgroundColor:"white"}} raised = "true">
                     <Typography align="left" gutterBottom>
                     <CardContent>
                             <b>What are the steps to debugging?</b><b></b>

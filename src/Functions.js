@@ -1,5 +1,5 @@
 import React from 'react'
-import { Typography, Grid, CardContent} from '@mui/material'
+import { Typography, Grid, CardContent,Button} from '@mui/material'
 import { Card } from '@mui/material'
 
 function Functions(){
@@ -7,10 +7,14 @@ function Functions(){
         <div>
             <Typography color="success">
                 <h1 align="center" color='success'>Lesson 5: Let's learn about Functions!</h1>
-             </Typography>
+            <Button  align = "center" href="/App" variant="contained" color="inherit" label="Debugging" size="extralarge" style={{marginLeft:"1350px"}}>
+                Homepage
+                </Button>
+                </Typography>
+            <br></br>
             <Grid container spacing={2}>
                 <Grid item sm={4}>
-                    <Card style={{marginLeft:"100px", width:"600px", height:"560px", backgroundColor:"yellowgreen"}}>
+                    <Card style={{marginLeft:"100px", width:"600px", height:"560px", backgroundColor:"white"}}>
                     <CardContent>
                    <b>What are Functions?</b><b></b>
                    </CardContent>
@@ -35,7 +39,7 @@ function Functions(){
                 <br></br>
                 <br></br>
                 <Grid item sm={4}>
-                <Card style={{marginLeft:"290px", width:"590px", height:"560px", backgroundColor:"yellowgreen"}}>
+                <Card style={{marginLeft:"290px", width:"590px", height:"560px", backgroundColor:"white"}}>
                 <CardContent>
                     <b>Defining vs Calling Function</b>
                     </CardContent>
@@ -72,12 +76,12 @@ function Functions(){
                     <Grid item sm={7} align="center">
                         <br></br>
                         <br></br>
-                <iframe style={{marginRight:"80px"}} title='Learning about functions in' src="https://trinket.io/embed/python3/23b4bcfc78"  width="750" height="400" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"/>
+                <iframe style={{marginRight:"70px"}} title='Learning about functions in' src="https://trinket.io/embed/python3/23b4bcfc78"  width="675" height="400" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"/>
                 <br></br>
                 <br></br>
                 </Grid>
                 <Grid item sm={5}>
-                    <Card style={{marginTop:"100px", width:"400px", height:"300px", backgroundColor:"yellowgreen"}}>
+                    <Card style={{marginTop:"100px", width:"400px", height:"300px", backgroundColor:"white"}}>
                 <CardContent>
                 <b>Your turn to try and modify the sandbox!</b> Try and alter the different variables and function and see the variety of different outputs!
                 </CardContent>

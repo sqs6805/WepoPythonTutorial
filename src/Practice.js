@@ -26,7 +26,7 @@ function Practice(){
                 <iframe align="center" style={{marginLeft:"40px"}} title='Learning about functions in' src="https://trinket.io/embed/python3/960679b04a"  width="600" height="400" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"/>
                 </Grid>
                 <Grid item sm={5}>
-                    <Card style={{marginTop:"75px", width:"300px", height:"150px", backgroundColor:"silver"}}>
+                    <Card style={{marginTop:"75px", width:"300px", height:"150px", backgroundColor:"white"}}>
                     <CardContent>
                         <b>Question 1</b>
                     </CardContent>
@@ -45,7 +45,7 @@ function Practice(){
                 <iframe align="center" style={{marginLeft:"40px"}} title='Learning about functions in' src="https://trinket.io/embed/python3/6771db41f6"   width="600" height="400" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"/>
                 </Grid>
                 <Grid item sm={5}>
-                    <Card style={{marginTop:"75px", width:"300px", height:"150px", backgroundColor:"silver"}}>
+                    <Card style={{marginTop:"75px", width:"300px", height:"150px", backgroundColor:"white"}}>
                     <CardContent>
                     <b>Question 2</b>
                 </CardContent>

@@ -23,7 +23,7 @@ function Problem7(){
             <iframe align="center" style={{marginLeft:"40px"}} title='Learning about functions in' src="https://trinket.io/embed/python3/baa6659fa3"   width="600" height="400" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"/>
             </Grid>
             <Grid item sm={5}>
-                <Card style={{marginTop:"75px", width:"300px", height:"150px", backgroundColor:"silver"}}>
+                <Card style={{marginTop:"75px", width:"300px", height:"150px", backgroundColor:"white"}}>
                 <CardContent>
                         <b>Question 9</b>
                     </CardContent>
@@ -42,7 +42,7 @@ function Problem7(){
             <iframe align="center" style={{marginLeft:"40px"}} title='Learning about functions in' src="https://trinket.io/embed/python3/a6a3f860d3"   width="600" height="400" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"/>
             </Grid>
             <Grid item sm={5}>
-                <Card style={{marginTop:"75px", width:"300px", height:"150px", backgroundColor:"silver"}}>
+                <Card style={{marginTop:"75px", width:"300px", height:"150px", backgroundColor:"white"}}>
                 <CardContent>
                     <b>Question 10 (Bonus!)</b>
                 </CardContent>

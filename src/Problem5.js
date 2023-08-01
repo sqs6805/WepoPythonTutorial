@@ -24,15 +24,15 @@ function Problem5(){
                 <Grid item sm={7} align="center">
                     <br></br>
                     <br></br>
-            <iframe align="center" style={{marginLeft:"40px"}} title='Learning about functions in' src="https://trinket.io/embed/python3/2238659c3e"   width="600" height="400" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"/>
+            <iframe align="center" style={{marginLeft:"40px"}} title='Learning about functions in' src="https://trinket.io/embed/python3/2a8c4e1221"   width="600" height="400" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"/>
             </Grid>
             <Grid item sm={5}>
-                <Card style={{marginTop:"75px", width:"300px", height:"150px", backgroundColor:"silver"}}>
+                <Card style={{marginTop:"75px", width:"300px", height:"150px", backgroundColor:"white"}}>
                 <CardContent>
                         <b>Question 5</b>
                     </CardContent>
                     <CardContent>
-                        Print the multiples of 2 up until 5.
+                        Print the value for 10/i for all natural numbers up till and including 10. 
                     </CardContent>
             </Card>
             </Grid>
@@ -46,7 +46,7 @@ function Problem5(){
             <iframe align="center" style={{marginLeft:"40px"}} title='Learning about functions in' src="https://trinket.io/embed/python3/a8fd3ed873"   width="600" height="400" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"/>
             </Grid>
             <Grid item sm={5}>
-                <Card style={{marginTop:"75px", width:"300px", height:"150px", backgroundColor:"silver"}}>
+                <Card style={{marginTop:"75px", width:"300px", height:"150px", backgroundColor:"white"}}>
                 <CardContent>
                     <b>Question 6</b>
                 </CardContent>

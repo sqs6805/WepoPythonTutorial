@@ -5,9 +5,18 @@ import { Card } from '@mui/material'
 function Loops(){
     return(
         <div>
+            
             <Typography color="success">
                 <h1 align="center" color='success'>Lesson 4: Loops</h1>
+                <h1 align="center" color='success'>Lesson 4: Let's learn about Loops!</h1>
+                <Button  align = "center" href="/App" variant="contained" color="inherit" label="Loops" size="extralarge" style={{marginLeft:"1150px"}}>
+                    Homepage
+                </Button>
+                <br></br>
+                <br></br>
+                <br></br>
              </Typography>
+             
             <Grid container spacing={2}>
                 <Grid item sm ={4}>
                 <Card style={{marginLeft:"100px", width:"700px", height:"350px", backgroundColor:"white"}} raised="true">
@@ -39,7 +48,7 @@ function Loops(){
             <Grid item sm={4}>
             </Grid>
             <Grid item sm={4}>
-                <Card style={{backgroundColor:"white", width:"400px", height:"580px", marginRight:"50px"}} raised="true">
+                <Card style={{backgroundColor:"white", width:"400px", height:"590px", marginRight:"50px"}} raised="true">
                     <CardContent>
                         <Typography>
                             <b>Different Types of Loops</b>
@@ -75,14 +84,8 @@ function Loops(){
                 </Card>
                 <br></br>
                 <br></br>
-                <Grid item sm = {4}>
-                    <Button  align = "center" href="/App" variant="contained" color="inherit" label="Debugging" size="extralarge" style={{marginLeft:"150px"}}>
-                        Homepage
-                        </Button>
-                    </Grid>
+                <br></br>
                 </Grid>
-                <br></br>
-                <br></br>
             </Grid>
         </div>
 )

@@ -6,7 +6,7 @@ function Functions(){
     return(
         <div>
             <Typography color="success">
-                <h1 align="center" color='success'>Lesson 5: Let's learn about Functions!</h1>
+                <h1 align="center" color='success'>Lesson 5: Functions</h1>
             <Button  align = "center" href="/App" variant="contained" color="inherit" label="Debugging" size="extralarge" style={{marginLeft:"1350px"}}>
                 Homepage
                 </Button>

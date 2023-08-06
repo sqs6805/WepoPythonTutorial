@@ -6,7 +6,7 @@ function Debugging(){
     return(
         <div>
             <Typography color="success">
-                <h1 align="center" color='success'>Lesson 6: Debugging and Practice Questions!</h1>
+                <h1 align="center" color='success'>Lesson 6: Debugging and Practice Questions</h1>
              </Typography>
             <Grid container spacing={2}>
             <Grid item sm={4}>

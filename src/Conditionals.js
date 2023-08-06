@@ -1,7 +1,7 @@
 import React from 'react';
 import { CardContent, Grid } from '@mui/material';
 import { Typography } from '@mui/material';
-import {Card} from '@mui/material';
+import {Card, Button} from '@mui/material';
 
 function Conditionals(){
     return(
@@ -10,7 +10,10 @@ function Conditionals(){
             <br></br>
             <br></br>
             <Typography color="Primary">
-                <h1 align="center">Conditionals - Update</h1>
+                <h1 align="center">Lesson 2: Conditionals</h1>
+                <Button align = "center" href="/App" variant="contained" color="inherit" label="Debugging" size="extralarge" style={{marginLeft:"1350px", marginTop:"10px"}}>
+                        Homepage
+                        </Button>
                 </Typography>
             <Grid container spacing={2}>
                 <Grid item sm={4}>
@@ -101,8 +104,7 @@ function Conditionals(){
                     <Grid item sm={7} align="center">
                         <br></br>
                         <br></br>
-                <iframe style={{marginLeft:"150px", marginBottom:"50px"}}  align="center" title='Learning about input and output in Python' src="https://trinket.io/embed/python/cbfde46f46"  width="800" height="500" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"/>
-                </Grid>
+                <iframe style={{marginLeft:"150px", marginBottom:"50px"}}  align="center" title='Learning about input and output in Python' src="https://trinket.io/embed/python/cbfde46f46"  width="800" height="500" sandbox="allow-forms allow-modals allow-presentation allow-same-origin allow-scripts"/>
                 <Grid item sm={5}>
                 <Card width="600px" height="600px" raised="true" style={{ width:"400px", height:"400px", marginRight:"50px", marginTop:"100px", marginLeft:"100px", backgroundColor:"yellowgreen"}} >
                 <CardContent><b>Try yourself!</b></CardContent>
@@ -116,7 +118,8 @@ function Conditionals(){
                 </Card>
                 </Grid>
                 </Grid>
-        </div>
+                </Grid>
+     </div>
 )
 }
 export default Conditionals

@@ -1,13 +1,16 @@
 import React from 'react'
 import { Typography, Grid, CardContent} from '@mui/material'
-import { Card } from '@mui/material'
+import { Card, Button } from '@mui/material'
 
 function Input(){
     return(
         <div>
             <Typography color="success">
-                <h1 align="center" color='success'>Variables, Data Types, Comments, Input and Output</h1>
+                <h1 align="center" color='success'> Lesson 1: Variables, Data Types, Comments, Input and Output</h1>
              </Typography>
+             <Button  align = "center" href="/App" variant="contained" color="inherit" label="Debugging" size="extralarge" style={{marginLeft:"150px"}}>
+                        Homepage
+                        </Button>
             <Grid container spacing={2}>
                 <Grid item sm ={4}>
 

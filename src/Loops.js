@@ -8,7 +8,6 @@ function Loops(){
             
             <Typography color="success">
                 <h1 align="center" color='success'>Lesson 4: Loops</h1>
-                <h1 align="center" color='success'>Lesson 4: Let's learn about Loops!</h1>
                 <Button  align = "center" href="/App" variant="contained" color="inherit" label="Loops" size="extralarge" style={{marginLeft:"1150px"}}>
                     Homepage
                 </Button>

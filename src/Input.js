@@ -7,14 +7,14 @@ function Input(){
         <div>
             <Typography color="success">
                 <h1 align="center" color='success'> Lesson 1: Variables, Data Types, Comments, Input and Output</h1>
-             </Typography>
-             <Button  align = "center" href="/App" variant="contained" color="inherit" label="Debugging" size="extralarge" style={{marginLeft:"150px"}}>
+                <Button  align = "right" href="/App" variant="contained" color="inherit" label="homepage" size="extralarge" style={{marginLeft:"650px"}} >
                         Homepage
                         </Button>
+             </Typography>
             <Grid container spacing={2}>
                 <Grid item sm ={4}>
 
-            <Card style={{backgroundColor:"yellowgreen", width:"400px", height:"600px", marginRight:"80px", marginLeft:"50px", marginTop:"30px"}} raised="true">
+            <Card style={{ width:"400px", height:"650px", marginRight:"80px", marginLeft:"50px", marginTop:"30px"}} raised="true">
             <CardContent>
                 <b>Variables</b>
             </CardContent>
@@ -46,7 +46,7 @@ function Input(){
             
             </Grid>
             <Grid item sm={4}>
-            <Card style={{backgroundColor:"yellowgreen", width:"480px", height:"600px", marginRight:"60px", marginTop:"30px"}} raised="true">
+            <Card style={{ width:"480px", height:"600px", marginRight:"60px", marginTop:"30px"}} raised="true">
                     <CardContent>
                         <Typography>
                             <b>Data Types</b>
@@ -74,7 +74,7 @@ function Input(){
                         </CardContent>
                     </Typography>
                 </Card>
-                <Card style={{marginLeft:"400px", width:"400px", height:"200px", marginTop:"100px",  backgroundColor:"yellowgreen"}} raised="true">
+                <Card style={{marginLeft:"400px", width:"400px", height:"200px", marginTop:"100px"}} raised="true">
                 <CardContent>
                     <b>Try yourself!</b>
                 </CardContent>
@@ -87,7 +87,7 @@ function Input(){
             </Card>
             </Grid>
             <Grid item sm={4}>
-            <Card style={{width: "400px", height:"600px", marginLeft:"5px", marginTop:"30px", backgroundColor:"yellowgreen"}} raised="true">
+            <Card style={{width: "400px", height:"650px", marginLeft:"5px", marginTop:"30px"}} raised="true">
                     <CardContent>
                         <b>Input/Output</b>
                     </CardContent>

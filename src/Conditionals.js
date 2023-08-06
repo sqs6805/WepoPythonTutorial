@@ -6,18 +6,16 @@ import {Card, Button} from '@mui/material';
 function Conditionals(){
     return(
         <div>
-            <br></br>
-            <br></br>
-            <br></br>
             <Typography color="Primary">
                 <h1 align="center">Lesson 2: Conditionals</h1>
-                <Button align = "center" href="/App" variant="contained" color="inherit" label="Debugging" size="extralarge" style={{marginLeft:"1350px", marginTop:"10px"}}>
+                <Button align = "right" href="/App" variant="contained" color="inherit" label="homepage" size="extralarge" style={{marginLeft:"650px"}}>
                         Homepage
                         </Button>
                 </Typography>
+                <br></br>
             <Grid container spacing={2}>
                 <Grid item sm={4}>
-                    <Card style={{marginLeft:"30px", width:"450px", height:"600px", backgroundColor:"yellowgreen"}}>
+                    <Card style={{marginLeft:"30px", width:"450px", height:"600px"}}>
                 <Typography align="left" gutterBottom>
                    <CardContent>
                     <b>Why are conditionals used </b>
@@ -47,7 +45,7 @@ function Conditionals(){
                 <br></br>
                 <br></br>
                 <Grid item sm={4}>
-                <Card style={{marginLeft:"20px", width:"450px", height:"600px", backgroundColor:"yellowgreen"}}>
+                <Card style={{marginLeft:"20px", width:"450px", height:"600px"}}>
                 <Typography align="left" gutterBottom>
                     <CardContent>
                         <b>Sandbox example of conditionals</b>
@@ -73,7 +71,7 @@ function Conditionals(){
                 </Typography>
                 </Card>
                 </Grid>
-                <Card style={{marginTop:"16px", width:"450px", height:"610px", marginLeft:"20px", backgroundColor:"yellowgreen"}}>
+                <Card style={{marginTop:"16px", width:"450px", height:"630px", marginLeft:"20px"}}>
                         <CardContent>
                             <b>Formatting/Syntax for Conditionals</b>
                         </CardContent>
@@ -99,14 +97,9 @@ function Conditionals(){
                         </CardContent>
                     </Card>
 
-                 </Grid>
-                 <Grid container spacing={2}>
-                    <Grid item sm={7} align="center">
-                        <br></br>
-                        <br></br>
-                <iframe style={{marginLeft:"150px", marginBottom:"50px"}}  align="center" title='Learning about input and output in Python' src="https://trinket.io/embed/python/cbfde46f46"  width="800" height="500" sandbox="allow-forms allow-modals allow-presentation allow-same-origin allow-scripts"/>
-                <Grid item sm={5}>
-                <Card width="600px" height="600px" raised="true" style={{ width:"400px", height:"400px", marginRight:"50px", marginTop:"100px", marginLeft:"100px", backgroundColor:"yellowgreen"}} >
+                
+                <iframe style={{marginLeft:"150px", marginBottom:"50px"}}  align="center" title='Learning about conditionals in Python' src="https://trinket.io/embed/python/cbfde46f46"  width="800" height="500" sandbox="allow-forms allow-modals allow-presentation allow-same-origin allow-scripts"/>
+                <Card width="600px" height="350px" raised="true" style={{ width:"400px", height:"350px", marginTop:"100px", marginLeft:"90px"}} >
                 <CardContent><b>Try yourself!</b></CardContent>
                 <CardContent>
                  Now that you have seen an example, it is time for you to apply this knowledge to our creamery!
@@ -116,8 +109,6 @@ function Conditionals(){
                 Modify the sandbox on the side with your code and see if you can get the correct output!
                 </CardContent>
                 </Card>
-                </Grid>
-                </Grid>
                 </Grid>
      </div>
 )

@@ -7,10 +7,9 @@ function Lists(){
         <div>
             <Typography color="success">
                 <h1 align="center" color='success'>Lesson 3: Lists</h1>
-                <Button  align = "center" href="/App" variant="contained" color="inherit" label="Lists" size="extralarge" style={{marginLeft:"1100px"}}>
+                <Button  align = "right" href="/App" variant="contained" color="inherit" label="Lists" size="extralarge" style={{marginLeft:"690px"}}>
                     Homepage
                 </Button>
-                <br></br>
                 <br></br>
                 <br></br>
             </Typography>

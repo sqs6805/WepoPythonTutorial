@@ -7,7 +7,7 @@ function Functions(){
         <div>
             <Typography color="success">
                 <h1 align="center" color='success'>Lesson 5: Functions</h1>
-            <Button  align = "center" href="/App" variant="contained" color="inherit" label="Debugging" size="extralarge" style={{marginLeft:"1350px"}}>
+            <Button  align = "center" href="/App" variant="contained" color="inherit" label="Debugging" size="extralarge" style={{marginLeft:"650px"}}>
                 Homepage
                 </Button>
                 </Typography>

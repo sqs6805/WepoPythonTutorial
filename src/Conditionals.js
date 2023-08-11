@@ -71,7 +71,7 @@ function Conditionals(){
                 </Typography>
                 </Card>
                 </Grid>
-                <Card style={{marginTop:"16px", width:"450px", height:"630px", marginLeft:"20px"}}>
+                <Card style={{marginTop:"16px", width:"450px", height:"660px", marginLeft:"20px"}}>
                         <CardContent>
                             <b>Formatting/Syntax for Conditionals</b>
                         </CardContent>

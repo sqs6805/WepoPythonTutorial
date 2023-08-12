@@ -39,7 +39,7 @@ function Functions(){
                 <br></br>
                 <br></br>
                 <Grid item sm={4}>
-                <Card style={{marginLeft:"290px", width:"590px", height:"560px", backgroundColor:"white"}}>
+                <Card style={{marginLeft:"290px", width:"590px", height:"590px", backgroundColor:"white"}}>
                 <CardContent>
                     <b>Defining vs Calling Function</b>
                     </CardContent>

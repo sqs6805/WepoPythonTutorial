@@ -30,7 +30,7 @@ function Debugging(){
                             </Button>
                     </Grid>
                     <Grid item sm = {2}>
-                        <Button  align = "center" href="/App" variant="contained" color="inherit" label="Debugging" size="extralarge" style={{marginLeft:"-650px"}}>
+                        <Button  align = "center" href="/App" variant="contained" color="inherit" label="Debugging" size="extralarge" style={{marginLeft:"-680px"}}>
                             Homepage
                             </Button>
                     </Grid>
